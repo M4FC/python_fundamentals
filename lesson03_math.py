@@ -37,3 +37,22 @@ print("RESULT 4:", result4)
 
 result5= 5+2**3*(4-1)
 print("RESULT5:", result5)
+
+# CHALLENGES
+
+# 1ST CHALLENGE
+rectangle_area= 8*5
+print("RECT_AREA:", rectangle_area)
+
+# 2nd one
+circle= 3.14*7**2
+print("CIRCLE:", circle)
+
+# 3rd one
+book_3= 12.99*3
+notebook_4=3.50*4
+print("answer:" ,"$",book_3 + notebook_4)
+
+# 4th one
+Interger=7
+print(Interger % 2)
