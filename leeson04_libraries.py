@@ -44,7 +44,8 @@ circle_area= math.pi*7**2
 print(circle_area)
 
 #challenge 2
-Die_roll=random.randint(1,6)
+import random
+Die_roll=random.randint(1,Die_roll)
 print(Die_roll)
 
 
