@@ -35,6 +35,6 @@ print("circle with this diameter is", math.pi*radius**2)
 
 # challenge 4
 import random
-die=input("how many sides")
+die=int(input("how many sides"))
 die_roll= random.randint(1,die)
 print(die_roll)

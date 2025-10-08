@@ -45,7 +45,7 @@ print(circle_area)
 
 #challenge 2
 import random
-Die_roll=random.randint(1,Die_roll)
+Die_roll=random.randint(1,6)
 print(Die_roll)
 
 

@@ -24,7 +24,40 @@ print(length_of_word)
 random_phrase="SiX SEvEn!"
 print("\nUppercase:", random_phrase.upper())
 print("\nlowercase:", random_phrase.lower())
-print("\ncap:", random_phrase.capitalize())
+print("\ncapitalize:", random_phrase.capitalize())
+
+#find and replace text
+sent="im a goofy goober"
+new=sent.replace("im","your")
+print(sent)
+print(new)
+
+
+#formatted strings
+print("\n---formatted strings--- ")
+name="ada"
+age=28
+city="London"
+print(f"hello, my name is {name}. I am {age} years old and live in {city} ")
+print(f"next year ill be {age+1}, and my name uppercase is{name.upper()}")
+
+#challenge 1
+quote=input("what is ur favorite quote")
+print("your favorite quote is",len(quote))
+#challenge 2
+first=(input("what is your first name"))
+last=(input("what is your last name"))
+print(last,first)
+
+#challenge 3
+A_word=(input("gimme a word plox"))
+print(A_word.upper())
+print(A_word.lower())
+print(A_word[])
+
+
+
+
 
 
 
