@@ -49,7 +49,50 @@ else:
    print("its the weekday")
 
   if day is not "monday":
-    print("its not monday ")
+    print("its not monday")
+
+# review challenges 
+
+#challenge 1: even or odd challenge
+number=int(input("gimme a number plox"))
+output=number%2
+print(output)
+if output==0:
+  print("Your number is even")
+else:
+  print("your number is odd")
+
+
+#challenge 2: password check
+Password=input("enter password")
+real_password="smegmacheese25"
+if Password==real_password:
+  print("access granted")
+else:
+  print("access denied")
+nextattempt=input("try again")
+if Password== real_password:
+  print("access granted")
+else:
+  print("locked out")
+
+#challenge 3:grading system
+Grade=int(input("enter numeric grade"))
+if Grade<=60:
+  print("F")
+elif 60<=Grade<70:
+  print("D")
+elif 70<=Grade<80:
+  print("C")
+elif 80<=Grade<90:
+  print("B")
+elif 90<=Grade<=100:
+  print("A")
+
+
+
+
+
     
     
 
