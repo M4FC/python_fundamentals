@@ -58,7 +58,7 @@ def double_sequencer(n,t):
     
    return sequence
 
-result = double_sequencer(1, 10000)
+result = double_sequencer(1, 100000)
 print(result)
 
  
